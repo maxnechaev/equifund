@@ -1,0 +1,60 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #666;
+}
+
+h2 {
+  color: #00ADAB;
+}
+
+.sidenav {
+  text-align: left;
+  width: 250px;
+  position: fixed;
+  top: 250px;
+  overflow-x: hidden;
+}
+
+.sidenav a {
+  margin-left: 0;
+  padding: 15px;
+  width: 200px;
+  text-decoration: none;
+  font-size: 1.25em;
+  color: #FFF;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #CEE7DE;
+}
+
+.sidenav-elem {
+  width: 150px;
+  background: #006867;
+  margin: 15px;
+}
+
+.main {
+  position: fixed;
+  top: 250px;
+  margin-left: 300px;
+  font-size: 1.25em;
+  padding: 0px 10px;
+}
+
+ol {
+  list-style-type: lower-latin;
+  color: #666;
+}
+
+footer {
+  margin-top: 320px;
+  margin-left: 20px;
+}
